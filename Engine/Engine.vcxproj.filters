@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ApplicationLayer">
+      <UniqueIdentifier>{c79e8d2c-86d8-42ae-a4bf-bbc1c1366027}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameCommands">
+      <UniqueIdentifier>{8f5d4bf1-b702-4cc1-b697-0c65839f1bc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameLogicLayer">
+      <UniqueIdentifier>{028f2f15-e72a-4d4f-9799-8a638cc5d5ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameViews">
+      <UniqueIdentifier>{ca52af37-b85b-4df7-9b4b-e944405be8e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameViews\HumanView">
+      <UniqueIdentifier>{67e770ce-d4bb-4a5a-842d-753ac1972d38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameViews\AI">
+      <UniqueIdentifier>{05648cfa-e201-4a2d-9e7a-2c64948667a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities">
+      <UniqueIdentifier>{4aba9039-7522-40e2-aaf2-743cee90b907}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AIView.h">
+      <Filter>GameViews\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="GameView.h">
+      <Filter>GameViews</Filter>
+    </ClInclude>
+    <ClInclude Include="GameLogic.h">
+      <Filter>GameLogicLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="EventRegistry.h">
+      <Filter>ApplicationLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandInterpreter.h">
+      <Filter>ApplicationLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="EventManager.h">
+      <Filter>ApplicationLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessManager.h">
+      <Filter>ApplicationLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="ApplicationLayer.h">
+      <Filter>ApplicationLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptInterpreter.h">
+      <Filter>ApplicationLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="Engine.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AIView.cpp">
+      <Filter>GameViews\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="ApplicationLayer.cpp">
+      <Filter>ApplicationLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandInterpreter.cpp">
+      <Filter>ApplicationLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="EventManager.cpp">
+      <Filter>ApplicationLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="EventRegistry.cpp">
+      <Filter>ApplicationLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptInterpreter.cpp">
+      <Filter>ApplicationLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessManager.cpp">
+      <Filter>ApplicationLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="GameLogic.cpp">
+      <Filter>GameLogicLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="GameView.cpp">
+      <Filter>GameViews</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine.cpp" />
+  </ItemGroup>
+</Project>
